@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.bcm.havoc.mynote.Main2Activity">
+    <item
+        android:id="@+id/action_new"
+        android:orderInCategory="100"
+        android:title="重置"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_bai"
+        android:orderInCategory="100"
+        android:title="空白"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_share"
+        android:orderInCategory="100"
+        android:title="分享"
+        app:showAsAction="never" />
+
+</menu>
